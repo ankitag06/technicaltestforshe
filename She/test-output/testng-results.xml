@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39771" started-at="2021-06-01T17:19:41 BST" finished-at="2021-06-01T17:20:21 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39771" started-at="2021-06-01T17:19:41 BST" finished-at="2021-06-01T17:20:21 BST">
+      <class name="com.she.test.RecordDeletionTest">
+        <test-method status="PASS" signature="ExtentReport()[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8]" name="ExtentReport" is-config="true" duration-ms="114" started-at="2021-06-01T17:19:41 BST" finished-at="2021-06-01T17:19:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8]" name="setUp" is-config="true" duration-ms="4663" started-at="2021-06-01T17:19:41 BST" finished-at="2021-06-01T17:19:46 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRecordDeleted()[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8]" name="verifyRecordDeleted" duration-ms="34267" started-at="2021-06-01T17:19:46 BST" finished-at="2021-06-01T17:20:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordDeleted -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8]" name="closeApplication" is-config="true" duration-ms="808" started-at="2021-06-01T17:20:20 BST" finished-at="2021-06-01T17:20:21 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecordDeleted status=SUCCESS method=RecordDeletionTest.verifyRecordDeleted()[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.she.test.RecordDeletionTest@7a9273a8]" name="flushReport" is-config="true" duration-ms="255" started-at="2021-06-01T17:20:21 BST" finished-at="2021-06-01T17:20:21 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.she.test.RecordDeletionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
